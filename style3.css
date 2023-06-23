@@ -1,0 +1,13 @@
+#smallimg_gr img{
+    height: 120px;
+    border-radius: 5px;
+}
+#bigimg img{
+    height: 510px;
+    border-radius: 10px;
+}
+#imgs{
+    margin-left: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+}

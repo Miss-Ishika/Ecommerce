@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(101, 52, 63);
+    background-color: rgb(91, 46, 56);
     border-bottom: 5px ridge rgb(255, 213, 0);
     box-shadow: 0 4px 50px rgba(129, 124, 124, 0.06);
     z-index: 999;
@@ -42,6 +42,10 @@ body{
     left: 0; */
     
 }
+#navbar .active{
+    border-bottom: 2px solid yellow;
+    padding: 2px;
+}
 #navbar li{
     list-style: none;
     padding: 0 20px;
@@ -52,6 +56,11 @@ body{
     font-size: 22px;
     font-weight: 100;
     color: rgb(193, 193, 53);
+}
+#navbar li a .active{
+    border-bottom: 2px solid yellow;
+    padding: 5px;
+    
 }
 #navbar li a:hover{
     color: wheat;
@@ -72,9 +81,9 @@ body{
     display: none;
     align-items: center;
 }
-/* #close{
+#close{
     display: none;
-} */
+}
 
 /* Home Page */
 #hero{
@@ -211,7 +220,7 @@ h2{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-  
+    margin: 20px;
 }
 
 #product1 .pro{
@@ -225,7 +234,8 @@ h2{
     border-radius: 25px;
     cursor: pointer;
     box-shadow: 2px 2px 10px rgb(172, 168, 168);
-    margin: 0px 0px;
+    margin-bottom: 0px;
+
 }
 #product1 .pro:hover{
     box-shadow: 2px 2px 20px rgb(126, 123, 123);
